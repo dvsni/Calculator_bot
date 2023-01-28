@@ -1,6 +1,6 @@
 from calculator import calculate as calc
-from parser_calc import exp_to_list as pars
-from bot_config import dp,bot
+from parser_calculator import exp_to_list as pars
+from bot import dp,bot
 from aiogram import types
 
 global exp_string
